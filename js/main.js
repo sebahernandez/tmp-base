@@ -1,0 +1,1 @@
+"use strict";"addEventListener"in window&&(window.addEventListener("load",function(){document.body.className=document.body.className.replace(/\bis-loading\b/,"")}),document.body.className+=navigator.userAgent.match(/(MSIE|rv:11\.0)/)?" is-ie":""),jQuery(".slider_avatar").slick({arrows:!1,dots:!1,autoplay:!0,autoplaySpeed:4e3,fade:!0});
